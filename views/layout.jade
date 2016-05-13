@@ -1,0 +1,33 @@
+doctype html
+html
+    head
+        title= title
+        script(type="text/javascript", src="/javascripts/libs/webgl-debug.js")
+        script(type="text/javascript", src="/javascripts/libs/gl-matrix.js")
+        script(type="text/javascript", src="/javascripts/loaders/loader.js")
+        script(type="text/javascript", src="/javascripts/loaders/md3reader.js")
+        script(type="text/javascript", src="/javascripts/loaders/md3loader.js")
+        script(type="text/javascript", src="/javascripts/loaders/statics/staticModelLoader.js")
+        script(type="text/javascript", src="/javascripts/loaders/world/rawworldreader.js")
+        script(type="text/javascript", src="/javascripts/loaders/worldloader.js")
+        script(type="text/javascript", src="/javascripts/loaders/sceneloader.js")
+        script(type="text/javascript", src="/javascripts/loaders/textureloader.js")
+        script(type="text/javascript", src="/javascripts/glutilities/buffer.js")
+        script(type="text/javascript", src="/javascripts/glutilities/shader.js")
+        script(type="text/javascript", src="/javascripts/glutilities/texture.js")
+        script(type="text/javascript", src="/javascripts/inputs/keyboardInput.js")
+        script(type="text/javascript", src="/javascripts/inputs/mouseInput.js")
+        script(type="text/javascript", src="/javascripts/morpheus/morpheusenginefactory.js")
+        script(type="text/javascript", src="/javascripts/morpheus/worldrendercomponent.js")
+        script(type="text/javascript", src="/javascripts/morpheus/staticrendercomponent.js")
+        script(type="text/javascript", src="/javascripts/morpheus/frustum.js")
+        script(type="text/javascript", src="/javascripts/morpheus/graphicengine.js")
+        script(type="text/javascript", src="/javascripts/morpheus/morpheusengine.js")
+        script(type="text/javascript", src="/javascripts/morpheus/player/playerIntegrator.js")
+        script(type="text/javascript", src="/javascripts/morpheus/player.js")
+        script(type="text/javascript", src="/javascripts/main.js")
+        link(href="/stylesheets/style.css", rel="stylesheet")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no")
+        block head_content
+    body
+        block content

@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 635px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+
+canvas {
+    padding: 0px;
+}
+
+.screenloader {
+    width: 1024px;
+    height: 635px;
+    left: 15%;
+    position: absolute;
+    /*margin-left: 300px;*/
+
+}
+
+.crossHairs {
+    left: 50%;
+    top: 50%;
+    float: left;
+    position: absolute;
+
+}
